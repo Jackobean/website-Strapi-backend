@@ -1,0 +1,19 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.com/JackSkehan/strapi-backend-website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "dev"]
+	remote = origin
+	merge = refs/heads/dev
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "heroku"]
+	url = https://git.heroku.com/jonathan-noonan.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
